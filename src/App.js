@@ -2,7 +2,7 @@ import { Link, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Dashboard from './dashboard/Dashboard';
 import Runners from './runners/Runners';
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (
