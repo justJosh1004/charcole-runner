@@ -11,10 +11,10 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Dashboard</Link>
+              <Link to='/'>Dashboard</Link>
             </li>
             <li>
-              <Link to="/runners">Runners</Link>
+              <Link to='/runners'>Runners</Link>
             </li>
           </ul>
         </nav>
@@ -26,6 +26,6 @@ const App = () => {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

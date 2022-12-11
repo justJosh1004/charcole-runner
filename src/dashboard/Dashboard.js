@@ -1,27 +1,29 @@
-import Table from 'react-bootstrap/Table'
+import Table from 'react-bootstrap/Table';
 
-import './DashboardStyles.scss'
-import { fakeData } from '../FakeData'
-import { useEffect, useState } from 'react'
-
+import './DashboardStyles.scss';
+import { fakeData } from '../FakeData';
+import { useEffect, useState } from 'react';
 
 const Dashboard = () => {
-  const [runners, setRunners] = useState([])
+  const [runners, setRunners] = useState([]);
 
   useEffect(() => {
-    setRunners(fakeData)
-  }, [])
+    setRunners(fakeData);
+  }, []);
+
+  const handleSearchSubmit = () => {};
 
   return (
-    <div id='dashboard' className="dashboard">
+    <div id='dashboard' className='dashboard'>
       <div className='header'>
-        <h1>
-          Joey Zins
-        </h1>
+        <h1>Joey Zins</h1>
       </div>
-      <div className="body">
-        <div className="table">
-          <Table striped  hover size='lg'>
+      <div className='body'>
+        <div className='searchFields'>
+          <form onSubmit={handleSearchSubmit}></form>
+        </div>
+        <div className='table'>
+          <Table striped hover size='lg'>
             <thead>
               <tr>
                 <th>First Name</th>
@@ -45,6 +47,6 @@ const Dashboard = () => {
       </div>
     </div>
   );
-}
- 
+};
+
 export default Dashboard;
