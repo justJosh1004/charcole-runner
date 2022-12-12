@@ -1,44 +1,48 @@
-export const fakeData = [
+export const fakeRunners = [
   {
-    first_name: 'Clint',
-    last_name: 'Keller',
+    firstName: 'Clint',
+    lastName: 'Keller',
     gender: 'M',
     team: "Men's",
   },
   {
-    first_name: 'Aaron',
-    last_name: 'Snook',
+    firstName: 'Aaron',
+    lastName: 'Snook',
     gender: 'M',
     team: "Men's",
   },
   {
-    first_name: 'Bryan',
-    last_name: 'Wolst',
+    firstName: 'Bryan',
+    lastName: 'Wolst',
     gender: 'M',
     team: "Men's",
   },
   {
-    first_name: 'Greg',
-    last_name: 'Bove',
+    firstName: 'Greg',
+    lastName: 'Bove',
     gender: 'M',
     team: "Men's",
   },
   {
-    first_name: 'Bridget',
-    last_name: 'Deets',
+    firstName: 'Bridget',
+    lastName: 'Deets',
     gender: 'W',
     team: "Women's",
   },
   {
-    first_name: 'Alyssa',
-    last_name: 'Taddie',
+    firstName: 'Alyssa',
+    lastName: 'Taddie',
     gender: 'W',
     team: "Women's",
   },
   {
-    first_name: 'Lauren',
-    last_name: 'Barret',
+    firstName: 'Lauren',
+    lastName: 'Barret',
     gender: 'W',
     team: "Women's",
   },
 ];
+
+export const fakeCoach = {
+  name: 'Joey Zins',
+};
